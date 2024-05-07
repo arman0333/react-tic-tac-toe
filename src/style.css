@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(74, 147, 195);
+}
+.board-row{
+    /* display: flex; */
+    align-items: center;
+    /* justify-content: space-around; */
+    /* margin: 5px; */
+
+
+}
+.board-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+button{
+    font-size: 24px;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    margin: 25px;
+    border-radius: 10px;
+
+}
+button:hover{
+    border: 1px solid black;
+    scale: 1.1;
+
+}
